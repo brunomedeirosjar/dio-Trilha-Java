@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/ContaBanco/ContaBanco.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesafioControleFluxo/Contador.iml" filepath="$PROJECT_DIR$/DesafioControleFluxo/Contador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iphone/Iphone.iml" filepath="$PROJECT_DIR$/Iphone/Iphone.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dio-Trilha-Java.iml" filepath="$PROJECT_DIR$/.idea/dio-Trilha-Java.iml" />
     </modules>
   </component>
