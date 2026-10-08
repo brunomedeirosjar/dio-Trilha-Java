@@ -1,3 +1,5 @@
+package bancodigital.modelo;
+
 public interface IConta {
 
     void sacar(double valor);
