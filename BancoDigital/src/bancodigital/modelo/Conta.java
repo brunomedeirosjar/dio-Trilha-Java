@@ -1,8 +1,9 @@
+package bancodigital.modelo;
+
 // Abstração: Conta representa o que é comum a qualquer tipo de conta do banco.
 // Herança: ContaCorrente e ContaPoupanca reutilizam esta classe base.
 public abstract class Conta implements IConta {
 
-    private static final int AGENCIA_PADRAO = 1;
     private static int sequencial = 1;
 
     // Encapsulamento: estado privado, acesso controlado por métodos.
@@ -11,10 +12,11 @@ public abstract class Conta implements IConta {
     private double saldo;
     private final Cliente cliente;
 
-    protected Conta(Cliente cliente) {
-        this.agencia = AGENCIA_PADRAO;
+    protected Conta(Cliente cliente, int agencia, double saldoInicial) {
+        this.agencia = agencia;
         this.numero = sequencial++;
         this.cliente = cliente;
+        this.saldo = saldoInicial;
     }
 
     @Override

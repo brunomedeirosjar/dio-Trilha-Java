@@ -1,3 +1,5 @@
+package bancodigital.modelo;
+
 public class Cliente {
 
     private final String nome;

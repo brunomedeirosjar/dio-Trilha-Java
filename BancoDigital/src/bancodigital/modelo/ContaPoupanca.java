@@ -1,7 +1,9 @@
+package bancodigital.modelo;
+
 public class ContaPoupanca extends Conta {
 
-    public ContaPoupanca(Cliente cliente) {
-        super(cliente);
+    public ContaPoupanca(Cliente cliente, int agencia, double saldoInicial) {
+        super(cliente, agencia, saldoInicial);
     }
 
     @Override
